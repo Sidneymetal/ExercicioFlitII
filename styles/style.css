@@ -2,18 +2,20 @@ body {
     background-color: rgb(190, 236, 227);
 }
 
-section {
-    font-family: sans-serif,Tahoma,Verdana;
+input {
+    background-color: antiquewhite;
+    border-width: 3px;
+    border-width: 1.2 em;
+    border-width: 2 rem;
+    border-width: 1.2 vh;
+    border-width: 1.2 vw;
 }
 
-form {   
-    margin: 0 auto;
-    width: 400px;    
-    padding: 1em;
-    border: 1px solid #CCC;
-    border-radius: 1em;
-}
-
-input{
-    border: 1px solid blue;
+input:hover {
+    border-color: rgba(158, 36, 239, 0.946);
+    border-width: 3px;
+    border-width: 1.2 em;
+    border-width: 2 rem;
+    border-width: 1.2 vh;
+    border-width: 1.2 vw;
 }
