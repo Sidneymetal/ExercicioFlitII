@@ -6,7 +6,6 @@ function sendMessage() {
     console.log("Preparando Envio...")
 }
 
-
 oninput = function () {
     if (localStorage.getItem("idName")) {
         let name = localStorage.getItem("idName")
